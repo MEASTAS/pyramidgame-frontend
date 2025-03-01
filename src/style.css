@@ -87,3 +87,20 @@ input {
     color: rgb(253, 93, 0); /* Warna teks chat kuning agar terlihat */
     text-align: left;
 }
+
+/* Dropdown Voting */
+select {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Hover efek */
+select:hover {
+    border-color: red;
+    cursor: pointer;
+}
