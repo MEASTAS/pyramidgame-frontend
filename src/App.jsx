@@ -11,7 +11,7 @@ function App() {
     const [player, setPlayer] = useState(null);
 
     const handleLogin = async () => {
-        const response = await fetch("https://pyramid-backend.onrender.com/login", {
+        const response = await fetch("https://pyramidgame-backend.onrender.com/login", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ code }),
@@ -29,7 +29,7 @@ function App() {
         <Router>
             <div className="container">
                 <h1 className="glitch" data-text="PYRAMID GAME">PYRAMID GAME</h1>
-                <p>Selamat datang di permainan misterius. Apakah kamu siap?</p>
+                <p>PERCAYA ATAU DIKHIANATI??</p>
 
                 {!player ? (
                     <div className="login-box">
